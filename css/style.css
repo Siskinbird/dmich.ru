@@ -39,7 +39,7 @@ html {
 
 .container {
     min-height: 100vh;
-    width: 100%;
+    max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -232,7 +232,7 @@ html {
 }
 
 #hero .hero {
-    min-width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 50px;
     justify-content: flex-start;
@@ -381,7 +381,7 @@ html {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 80%;
+    width: 74%;
     margin: 20px auto;
     overflow: hidden;
     border-radius: 10px;
@@ -574,8 +574,8 @@ html {
     margin-bottom: 30px;
 }
 #footer .social__item {
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
     margin: 0 5px;
 }
 #footer .social__item img {
@@ -626,7 +626,7 @@ html {
 }
 
 /* MEDIA QUERY FOR TABLET*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 904px) {
     .cta {
         font-size: 2.5rem;
         padding: 20px 60px;
@@ -650,6 +650,7 @@ html {
     /* Projects */
     #projects .project__item {
         flex-direction: row;
+        width: 100%;
     }
     #projects .project__item:nth-child(even) {
         flex-direction: row-reverse;
@@ -657,7 +658,7 @@ html {
     #projects .project__item {
         height: 400px;
         margin: 0;
-        width: 100%;
+        /* width: 100%; */
         border-radius: 0;
     }
     #projects .all__projects .project__info {
