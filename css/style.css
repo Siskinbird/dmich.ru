@@ -271,6 +271,8 @@ html {
     animation-delay: 0.5s;
 }
 
+
+
 #hero h1:nth-child(1) span {
     animation-delay: 0.5s;
 }
@@ -297,7 +299,17 @@ html {
     padding: 100px 0;
 }
 
-
+#services ul {
+    text-align: left;
+    font-size: 2.2rem;
+    font-weight: 400;
+    padding-left: 44px;
+    margin-top: 20px;
+    color: white;
+}
+#services li {
+    list-style: circle;
+}
 
 #services .service__bottom {
     display: flex;
@@ -367,6 +379,9 @@ html {
     margin: 0 auto;
     padding: 100px 0;
 }
+#projects span {
+    color: crimson;
+}
 
 #projects .projects__header h1 {
     margin-bottom: 50px;
@@ -400,6 +415,18 @@ html {
 #projects .project__info a {
     color: crimson;
 }
+
+#projects .project__info ul {
+    font-size: 2rem;
+    font-weight: 400;
+    padding-left: 44px;
+    margin-top: 20px;
+}
+#projects .project__info li {
+    list-style: circle;
+
+}
+
 #projects .project__info h1 {
     font-size: 4rem;
     font-weight: 500;
@@ -753,7 +780,7 @@ html {
         }
 
       #services .service__bottom .service__item {
-          flex-basis: 42%; /* изменить размеры блоков с услугами был 22% */ 
+          flex-basis: 42%;
           margin: 1.5%;
         }
     }
